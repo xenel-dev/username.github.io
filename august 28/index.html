@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewJeans Carousel Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h1>My Carousel Site <i class="fa-regular fa-star"></i></h1>
+        <ul>
+            <li><a href="#gallery1">Gallery 1</a></li>
+            <li><a href="#gallery2">Gallery 2</a></li>
+        </ul>
+    </nav>
+
+    <!-- Gallery 1: Carousel -->
+    <section id="gallery1" class="carousel-container">
+        <button class="prev">&#10094;</button>
+        <div class="carousel-track">
+            <img src="./gallery 1 images/image1.jpg" alt="Image 1">
+            <img src="./gallery 1 images/image2.jpg" alt="Image 2">
+            <img src="./gallery 1 images/image3.jpg" alt="Image 3">
+            <img src="./gallery 1 images/image4.jpg" alt="Image 4">
+            <img src="./gallery 1 images/image5.jpg" alt="Image 5">
+            <img src="./gallery 1 images/image6.jpg" alt="Image 6">
+        </div>
+        <button class="next">&#10095;</button>
+    </section>
+
+    <section id="gallery2" class="masonry-gallery">
+        <img src="./gallerly 2 images/image1.jpg" alt="Gallery 2 - Image 1">
+        <img src="./gallerly 2 images/image2.jpg" alt="Gallery 2 - Image 2">
+        <img src="./gallerly 2 images/image3.jpg" alt="Gallery 2 - Image 3">
+        <img src="./gallerly 2 images/image4.jpg" alt="Gallery 2 - Image 4">
+        <img src="./gallerly 2 images/image5.jpg" alt="Gallery 2 - Image 5">
+        <img src="./gallerly 2 images/image6.jpg" alt="Gallery 2 - Image 6">
+    </section>
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" src="" alt="Expanded Image">
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+[
+  { "question": "Bananas are berries, but strawberries are not.", "isTrue": true },
+  { "question": "Sharks are mammals.", "isTrue": false },
+  { "question": "Octopuses have three hearts.", "isTrue": true },
+  { "question": "The moon is made of cheese.", "isTrue": false },
+  { "question": "Cats can taste sweetness.", "isTrue": false },
+  { "question": "Honey never spoils.", "isTrue": true },
+  { "question": "Humans share 50% of DNA with bananas.", "isTrue": true },
+  { "question": "Goldfish have a 3-second memory.", "isTrue": false },
+  { "question": "The Eiffel Tower grows taller in summer.", "isTrue": true },
+  { "question": "The Great Wall of China is visible from space.", "isTrue": false },
+  { "question": "A group of flamingos is called a 'flamboyance'.", "isTrue": true },
+  { "question": "Water boils at 90°C at sea level.", "isTrue": false },
+  { "question": "Sloths can hold their breath longer than dolphins.", "isTrue": true },
+  { "question": "Humans have more than five senses.", "isTrue": true },
+  { "question": "Lightning never strikes the same place twice.", "isTrue": false },
+  { "question": "Penguins can fly.", "isTrue": false },
+  { "question": "A sneeze can travel up to 100 mph.", "isTrue": true },
+  { "question": "Bulls get angry when they see red.", "isTrue": false },
+  { "question": "There are more stars in the universe than grains of sand on Earth.", "isTrue": true },
+  { "question": "You can hear the sun from Earth.", "isTrue": false }
+]

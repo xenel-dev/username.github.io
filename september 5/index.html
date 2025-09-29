@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="homeScreen" class="screen">
+        <h1>🎯 Choose Your Difficulty</h1>
+        <button data-range="20">Easy (1-20)</button>
+        <button data-range="100">Medium (1-100)</button>
+        <button data-range="500">Hard (1-500)</button>
+        <button data-range="1000">Impossible (1-1000)</button>
+
+        <ul id="leaderboardList"></ul>
+        <button id="clearBtn">🧹 Clear Leaderboard</button>
+    </div>
+
+    <div id="nameScreen" class="screen" style="display: none;">
+        <button id="backToHome" class="back-text">Back</button>
+        <h2>Enter Your Name</h2>
+        <input type="text" id="nameInput" placeholder="Your name" />
+        <button id="startGameBtn">Start Game</button>
+    </div>
+
+    <div id="gameScreen" class="screen" style="display: none;">
+        <button id="backButton" class="back-text">Back</button>
+        <h2>Guess the Number!</h2>
+        <p id="rangeLabel"></p>
+        <input type="number" id="guessInput" placeholder="Enter your guess" />
+        <button id="submitGuess">Submit</button>
+        <p id="feedback"></p>
+        <p id="guessCount"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

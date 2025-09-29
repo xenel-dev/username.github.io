@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "name": "Soft Blue Notebook",
+    "price": 4.99,
+    "description": "A cozy, soft-cover notebook with grid pages.",
+    "image": "https://prodimage.images-bn.com/pimages/4901480366036_p0_v1_s1200x630.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Minimalist Pen",
+    "price": 1.50,
+    "description": "Smooth-writing black ink pen with matte finish.",
+    "image": "https://i.kickstarter.com/assets/012/304/318/84bbb9bbb81f4b568bb9950bfa55fe51_original.jpg?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1463754532&width=1024&sig=VRsg%2FvX7yRnLIRtTeKx3%2BXgTTY5V0bYs%2ByXahgcmyQ8%3D"
+  },
+  {
+    "id": 3,
+    "name": "Blue Sticky Notes",
+    "price": 2.25,
+    "description": "Soft blue sticky notes for reminders and doodles.",
+    "image": "https://m.media-amazon.com/images/I/51hURkuI4+L.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Desk Organizer",
+    "price": 6.75,
+    "description": "Compact organizer for pens, notes, and small tools.",
+    "image": "https://mobileimages.lowes.com/productimages/cfe6f1b9-d2f4-4f0d-be70-f05f6bcb466e/48286853.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Silver Binder Clips",
+    "price": 2.75,
+    "category": "Stationery",
+    "description": "Matte silver clips for organizing papers and notes.",
+    "image": "https://imgs.michaels.com/MAM/assets/1/5E3C12034D34434F8A9BAAFDDF0F8E1B/img/4782DB5C13974D1BA6081627916410CC/D337345S_4.jpg"
+  },
+  {
+    "id": 6,
+    "name": "White Grid Binder",
+    "price": 6.25,
+    "category": "Stationery",
+    "description": "White binder with subtle grid pattern and soft texture.",
+    "image": "https://www.tops-products.com/media/catalog/product/cache/c868b706a1174593958fe6a2901132ac/90601_EconomyValue_CV_RR.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Soft Blue Pencil Case",
+    "price": 8.99,
+    "category": "Accessories",
+    "description": "Zippered case for pens, pencils, and small tools.",
+    "image": "https://m.media-amazon.com/images/I/71AO1n11YuL._UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 8,
+    "name": "White Study Timer",
+    "price": 12.50,
+    "category": "Accessories",
+    "description": "Minimal timer for Pomodoro sessions and study blocks.",
+    "image": "https://i5.walmartimages.com/asr/12fe0b0b-7aa9-4df1-874b-451fd70a4ff7.0c486375cc945e967556a8723075f55b.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Silver Mechanical Pencil",
+    "price": 3.99,
+    "category": "Stationery",
+    "description": "Sleek silver pencil with soft grip and 0.5mm lead.",
+    "image": "https://tokyopenshop.com/cdn/shop/products/staedtler_925_pencil_03_LRG_93a400b4-9112-47ac-ac90-00f293a001be.jpg?v=1655801535&width=1445"
+  },
+  {
+    "id": 10,
+    "name": "Blue Eraser Pack",
+    "price": 1.99,
+    "category": "Stationery",
+    "description": "Soft blue erasers, smudge-free and clean edges.",
+    "image": "https://www.ttpen.com/cdn/shop/products/61fmBsJx2ML._AC_SL1500.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Silver Ruler",
+    "price": 3.50,
+    "category": "Stationery",
+    "description": "12-inch metal ruler with etched markings and anti-slip grip.",
+    "image": "https://tokyopenshop.com/cdn/shop/products/midorialuminumgradationruler_LRG_da0e9cf5-e415-4f3e-a03f-21dd98f8fc64.jpg?v=1655843680&width=990"
+  },
+  {
+    "id": 12,
+    "name": "Soft Blue File Folder",
+    "price": 4.50,
+    "category": "Stationery",
+    "description": "Lightweight folder with tab dividers and soft finish.",
+    "image": "https://www.emilyley.com/cdn/shop/files/01-Simplified-Leatherette-File-Folder-Blue.jpg?v=1739563310&width=3201"
+  },
+  {
+    "id": 13,
+    "name": "Blue Desk Mat",
+    "price": 22.00,
+    "category": "Decor",
+    "description": "Soft blue surface for a clean and cozy workspace.",
+    "image": "https://m.media-amazon.com/images/I/71+jwIPe3kL._UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Silver Laptop Stand",
+    "price": 34.95,
+    "category": "Tech",
+    "description": "Sleek aluminum stand for ergonomic laptop use.",
+    "image": "https://c1.neweggimages.com/productimage/nb640/BKPHD24083007AHXZ10.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Soft Blue Clipboard",
+    "price": 5.25,
+    "category": "Stationery",
+    "description": "Matte clipboard with smooth edges and soft blue finish.",
+    "image": "https://www.steelmillgifts.com/cdn/shop/products/BlueDotFolio1.png?v=1658162041"
+  },
+  {
+    "id": 16,
+    "name": "White Mechanical Pencil",
+    "price": 2.99,
+    "category": "Stationery",
+    "description": "Minimalist pencil with silver tip and 0.7mm lead.",
+    "image": "https://img2.activant-inet.com/custom/039096/Image/gSAK37657.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Silver Headphones",
+    "price": 29.99,
+    "category": "Tech",
+    "description": "Over-ear headphones with soft padding and silver finish.",
+    "image": "https://andaash.com/cdn/shop/files/WINTER-MAIN_d345f59f-8778-4cef-9dee-3e7875c3c08b_large.jpg?v=1726817582"
+  },
+  {
+    "id": 18,
+    "name": "Silver Keychain Lanyard",
+    "price": 3.75,
+    "category": "Accessories",
+    "description": "Soft silver loop with minimalist clasp and school-friendly design.",
+    "image": "https://m.media-amazon.com/images/I/61KB2sJfzYL.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Soft Blue Phone Stand",
+    "price": 7.99,
+    "category": "Tech",
+    "description": "Compact stand with soft blue finish for phones and small tablets.",
+    "image": "https://m.media-amazon.com/images/I/61UqKJb6kCL.jpg"
+  },
+  {
+    "id": 20,
+    "name": "White Index Card Pack",
+    "price": 2.25,
+    "category": "Stationery",
+    "description": "Clean white index cards for study notes and journaling.",
+    "image": "https://i5.walmartimages.com/seo/Oxford-Ruled-Index-Cards-4-x-6-White-100-Pack_01eeed23-94b5-4848-b2e6-e1fb76128c7e_1.fa4a78b2ea8a2592a33464cbb94d2bf7.jpeg"
+  }
+]

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real or Fake Fact Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="page__body">
+  <main class="quiz__container">
+
+    <section class="screen screen--landing active">
+      <div class="landing__wrapper">
+        <h1 class="landing__title">Welcome to the Real or Fake Fact Quiz</h1>
+        <p class="landing__description">
+          Think you can spot the truth? This quiz mixes real trivia with absurd fake facts.<br />
+          One question at a time. No pressure, just vibes.<br />
+          Your score will be saved, so bring your best guesses.
+        </p>
+
+        <button class="btn btn--start">Start Quiz</button>
+
+        <div class="leaderboard__wrapper">
+          <div class="leaderboard leaderboard--score">
+            <h2 class="leaderboard__title">Top Guessers</h2>
+            <ul class="leaderboard__list" id="scoreLeaderboard"></ul>
+          </div>
+          <div class="leaderboard leaderboard--time">
+            <h2 class="leaderboard__title">Fastest Finishers</h2>
+            <ul class="leaderboard__list" id="timeLeaderboard"></ul>
+          </div>
+        </div>
+
+        <button class="btn btn--clear-leaderboards">Clear Leaderboards</button>
+      </div>
+    </section>
+
+    <section class="screen screen--name">
+      <div class="name__wrapper">
+        <h2 class="name__title">Let’s personalize your quiz experience</h2>
+        <form class="name__form">
+          <div class="form__group">
+            <label for="username" class="form__label">Your name:</label>
+            <input type="text" id="username" class="form__input name__input" required />
+          </div>
+
+          <div class="form__group">
+            <label class="form__label">Show your score on the leaderboard?</label>
+            <div class="form__toggle">
+              <label><input type="radio" name="leaderboard" value="yes" checked /> Yes</label>
+              <label><input type="radio" name="leaderboard" value="no" /> No</label>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label">Enable timer?</label>
+            <div class="form__toggle">
+              <label><input type="radio" name="timer" value="yes" checked /> Yes</label>
+              <label><input type="radio" name="timer" value="no" /> No</label>
+            </div>
+          </div>
+
+          <p class="form__warning">⚠️ Once you begin, you won’t be able to go back to previous questions.</p>
+          <button type="submit" class="btn btn--go">Go</button>
+        </form>
+
+        <button type="button" class="btn btn--back">Back</button>
+      </div>
+    </section>
+
+    <section class="screen screen--quiz">
+      <div class="quiz__wrapper">
+        <div class="quiz__progress">
+          <span class="quiz__progress-text">Question 1 of 5</span>
+        </div>
+
+        <div class="quiz__question-box">
+          <p class="quiz__question-text">Loading question...</p>
+          <div class="quiz__choices">
+            <button class="btn btn--choice" data-choice="true">Real</button>
+            <button class="btn btn--choice" data-choice="false">Fake</button>
+          </div>
+        </div>
+
+        <button class="btn btn--next-question">Next</button>
+        <button class="btn btn--show-results" style="display: none;">See Your Results</button>
+      </div>
+    </section>
+
+    <section class="screen screen--results">
+      <div class="results__wrapper">
+        <h2 class="results__title"></h2>
+        <ul class="results__list"></ul>
+        <p class="results__time"></p>
+        <button class="btn btn--return">Return to Start</button>
+        <button class="btn btn--replay">Play Again</button>
+      </div>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
